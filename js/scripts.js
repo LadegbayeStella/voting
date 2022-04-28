@@ -8,7 +8,9 @@ $(document).ready(function () {
       $("#read").show();
 
     }
-
+    else if (age >= 18) {
+      $("#write").show();
+    }
 
 
   });

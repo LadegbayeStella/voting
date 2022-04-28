@@ -11,3 +11,16 @@
   text-align: center;
   margin-left: 50px;
 }
+#write{
+  display: none;
+}
+#img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50%;
+}
+.container{
+  float: right ;
+  padding-top: 115px;
+  padding-right: 75px;
+}
