@@ -16,16 +16,38 @@ tools. -->
 
 <body>
   <div class="container">
-    <form class="User">
-     <h3><label for="age">Enter Your Age:</label></h3>
-      <div class="col-sm-3">
+    <form id="User">
+      <h5><label for="name">Enter Your First Name:</label></h5>
+      <div class="col-sm-6">
+        <input id="name" class="form-control" type="text">
+      </div>
+
+      <h5><label for="last">Enter Your Last Name:</label></h5>
+      <div class="col-sm-6">
+        <input id="last" class="form-control" type="text">
+      </div>
+
+
+      <h5><label for="age">Enter Your Age:</label></h5>
+      <div class="col-sm-6">
         <input id="age" class="form-control" type="number">
       </div>
 
 
-    </form>
+      <h5><label for="party">Enter Your Party:</label></h5>
+      <div class="col-sm-3">
+        <input id="party" class="form-control" type="text">
+      </div>
 
 
+
+
+
+
+
+    </form><br>
+
+    <button class="btn btn-warning" type="submit">Submit</button>
   </div>
 </body>
 
